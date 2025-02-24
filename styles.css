@@ -1,0 +1,58 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background */
+    color: #333; /* Dark text for contrast */
+    line-height: 1.6;
+}
+
+/* Header styles */
+.site-header {
+    background-color: #878282; /* White background for header */
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.site-header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-img {
+    max-width: 100%; /* Ensure it scales well on different screens */
+    height: auto;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: #ffffff; /* White background for footer */
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px; /* Adds some space above the footer */
+}
+
+.site-footer p {
+    color: #777; /* Light grey text for footer */
+    font-size: 14px;
+}
+
+/* Additional container styling (for centralizing content) */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
